@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт с HTML5 играми</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Для стилей -->
+</head>
+<body>
+    <header>
+        <h1>Добро пожаловать на сайт с HTML5 играми</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="#game1">Игра 1</a></li>
+            <li><a href="#game2">Игра 2</a></li>
+            <li><a href="#game3">Игра 3</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="game1">
+            <h2>Игра 1: Простая игра</h2>
+            <canvas id="gameCanvas1"></canvas> <!-- Поле для игры -->
+            <script src="game1.js"></script> <!-- Скрипт первой игры -->
+        </section>
+        
+        <section id="game2">
+            <h2>Игра 2: Еще одна простая игра</h2>
+            <canvas id="gameCanvas2"></canvas>
+            <script src="game2.js"></script>
+        </section>
+
+        <section id="game3">
+            <h2>Игра 3: Третья игра</h2>
+            <canvas id="gameCanvas3"></canvas>
+            <script src="game3.js"></script>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Сайт с играми</p>
+    </footer>
+</body>
+</html>
